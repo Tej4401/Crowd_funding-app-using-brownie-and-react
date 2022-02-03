@@ -46,6 +46,7 @@ def add_allowed_tokens(token_farm, dict_of_allowed_tokens, account):
     return token_farm
 
 
+
 def update_front_end():
     # Send the build folder
     copy_folders_to_front_end("./build", "./front_end/src/chain-info")
@@ -66,4 +67,4 @@ def copy_folders_to_front_end(src, dest):
 
 def main():
     deploy_token_farm_and_dapp_token(front_end_update=True)
-    # update_front_end()
+    update_front_end()
