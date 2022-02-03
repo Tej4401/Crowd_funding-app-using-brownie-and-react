@@ -21,10 +21,10 @@ cd Crowd_funding-app-using-brownie-and-react
 ## Configuring .env
 You need to add the relevant variables in the .env file
 
-# Adding Private Key
+### Adding Private Key
 You can get the private key from your browser wallet like metamask.
 
-# Adding infura key
+### Adding infura key
 You can make an account on infura and generate a key.
 
 ## Compiling Contracts
@@ -45,7 +45,9 @@ Also we need to install the dependencies.
 
 ```bash
 cd front_end
-npm install
+npm installexport WEB3_INFURA_PROJECT_ID="1ac4f86f9fb14feeb169a09047ec6f06"
+export PRIVATE_KEY="0x8801ace58e854a18d441bb10ca6057e1ce671340ee3ab5a8b1f2f50f96774bdb"
+export ETHERSCAN_TOKEN="TB5Y9MRF8TZQMC1HKXJ3AY6NSRQR6UCTVZ"
 npm start
 ```
 
