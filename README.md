@@ -27,6 +27,12 @@ You can get the private key from your browser wallet like metamask.
 # Adding infura key
 You can make an account on infura and generate a key.
 
+## Compiling Contracts
+
+```bash
+brownie compile
+```
+
 ## Deploying Contracts to Kovan testnet
 
 ```bash
