@@ -1,0 +1,3 @@
+[submodule "react"]
+	path = react
+	url = https://github.com/Tej4401/Crowd-Funding-Frontend.git
