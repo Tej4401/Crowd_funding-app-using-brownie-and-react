@@ -43,13 +43,6 @@ brownie run scripts/deploy.py --network kovan
 We need to migrate to frontend_directory and start the server.
 Also we need to install the dependencies.
 
-```bash
-cd front_end
-npm installexport WEB3_INFURA_PROJECT_ID="1ac4f86f9fb14feeb169a09047ec6f06"
-export PRIVATE_KEY="0x8801ace58e854a18d441bb10ca6057e1ce671340ee3ab5a8b1f2f50f96774bdb"
-export ETHERSCAN_TOKEN="TB5Y9MRF8TZQMC1HKXJ3AY6NSRQR6UCTVZ"
-npm start
-```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
